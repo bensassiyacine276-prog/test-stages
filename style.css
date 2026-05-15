@@ -1,0 +1,45 @@
+/* Styles pour le fichier index.html - Version simplifiée */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px 0 40px 0;
+    max-width: 800px;
+}
+
+h2 {
+    color: #34495e;
+    text-align: center;
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+    font-weight: 300;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e8f4fd;
+}
